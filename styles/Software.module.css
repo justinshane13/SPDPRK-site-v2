@@ -1,0 +1,235 @@
+.software {
+    padding: 50px 50px 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.softwareSection1 {
+    padding: 0px 50px;
+}
+
+.softwareSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.softwareSection1 > div {
+    display: flex;
+}
+
+.softwareSection1 > div > div > h2 {
+    font-weight: 900;
+    font-size: 2.2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    max-width: 560px;
+}
+
+.softwareSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #282D6C;
+    width: 100%;
+    max-width: 750px;
+}
+
+.softwareVideoContainer {
+    overflow: hidden;
+    margin: 50px auto 0px 50px;
+    box-shadow: #FFF 0px 0px 30px 30px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.softwareVideo {
+    position: relative;
+    left: 1px;
+    width: 100%;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+.softwareSection2 {
+    padding: 0px 50px;
+}
+
+.softwareSection2 > h2 {
+    font-weight: 900;
+    font-size: 2.2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    max-width: 560px;
+}
+
+.softwareSection2 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.softwareSection2ListsContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.softwareSection2ListsContainer > div {
+    color: #282D6C;
+    min-width: 300px;
+}
+
+.softwareSection2OnSite > h2 {
+    border-left: 5px solid #5FCFA9;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.softwareSection2OnSite > div {
+    display: flex;
+}
+
+.softwareSection2OnSite > div > div {
+    min-width: 250px;
+}
+
+.softwareSection2Cloud > h2 {
+    border-left: 5px solid #5FCFA9;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.softwareSection2Cloud > div {
+    display: flex;
+}
+
+.softwareSection2Cloud > div > div {
+    min-width: 250px;
+}
+
+@media (max-width: 1250px) {
+    .softwareSection1 {
+        padding: 0px;
+    }
+
+    .softwareSection1 > div > div > p {
+        font-size: 1em;
+    }
+
+    .softwareSection2 {
+        padding: 0px;
+    }
+
+    .softwareSection2 > p {
+        font-size: 1em;
+    }
+
+    .softwareSection2OnSite > h2 {
+        font-size: 1.5em;
+    }
+
+    .softwareSection2OnSite > div > div {
+        min-width: 200px;
+    }
+
+    .softwareSection2OnSite > div > div > p {
+        font-size: .9em;
+    }
+
+    .softwareSection2Cloud > h2 {
+        font-size: 1.5em;
+    }
+
+    .softwareSection2Cloud > div > div {
+        min-width: 200px;
+    }
+
+    .softwareSection2Cloud > div > div > p {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 800px) {
+    .software {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .softwareSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .softwareSection1 > div {
+        flex-direction: column;
+    }
+
+    .softwareSection1 > div > div > h2 {
+        font-size: 1.6em;
+    }
+
+    .softwareSection1 > div > div > p {
+        font-size: 1em;
+    }
+
+    .softwareVideoContainer {
+        width: 100%;
+        min-width: 100px;
+        margin: 40px 0px ;
+    }
+
+    .softwareSection2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .softwareSection2 > h2 {
+        font-size: 1.6em;
+    }
+
+    .softwareSection2ListsContainer {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .softwareSection2OnSite {
+        margin: 30px auto 0px auto;
+    }
+
+    .softwareSection2OnSite > h2 {
+        font-size: 1.3em;
+    }
+
+    .softwareSection2OnSite > div > div {
+        min-width: 170px;
+    }
+
+    .softwareSection2OnSite > div > div > p {
+        font-size: .8em;
+    }
+
+    .softwareSection2Cloud {
+        margin: 30px auto 0px auto;
+    }
+
+    .softwareSection2Cloud > h2 {
+        font-size: 1.3em;
+    }
+
+    .softwareSection2Cloud > div > div {
+        min-width: 170px;
+    }
+
+    .softwareSection2Cloud > div > div > p {
+        font-size: .8em;
+    }
+}

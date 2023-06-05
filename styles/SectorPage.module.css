@@ -1,0 +1,170 @@
+.sectorPage {
+    padding: 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectorPageSection1 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.sectorPageSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-bottom: 0;
+}
+
+.sectorPageSection1 > div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.sectorPageSection1 > div > div {
+    width: 48%;
+}
+
+.sectorPageSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #282D6C;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.sectorPageSection1Image {
+    border-radius: 12px;
+}
+
+.sectorPageSection2 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.sectorPageSection2 > p {
+    color: #5FCFA9;    
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.sectorPageSection2 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+}
+
+.sectorPageSection2 > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.sectorPageSection2Tile {
+    display: flex;
+    align-items: center;
+    color: #282D6C;
+    max-width: 250px;
+}
+
+.sectorPageSection2Tile > div {
+    background-color: #4A78AF;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.sectorPageSection2Tile > p {
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+
+@media (max-width: 1250px) {
+    .sectorPage {
+        padding: 0px 50px;
+    }
+
+    .sectorPageSection1 {
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .sectorPageSection1 > div {
+        flex-direction: column-reverse;
+    }
+
+    .sectorPageSection1 > div > div {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .sectorPageSection2 {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sectorPage {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .sectorPageSection1 {
+        margin: 0;
+    }
+
+    .sectorPageSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .sectorPageSection1 > div {
+        margin-top: 30px;
+    }
+
+    .sectorPageSection1Image {
+        width: 100%;
+        height: calc(100vw - 30px)
+    }
+
+    .sectorPageSection1 > div > div {
+        margin-top: 30px;
+    }
+
+    .sectorPageSection1 > div > div > p {
+        font-size: 1em;
+    }
+
+    .sectorPageSection2 {
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .sectorPageSection2 > div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 0px;
+        max-width: 630px;
+    }
+
+    .sectorPageIcon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sectorPageSection2Tile > p {
+        font-size: 1em;
+    }
+}

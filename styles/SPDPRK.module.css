@@ -1,0 +1,410 @@
+.SPDPRK {
+    padding: 50px 50px 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SPDPRKSection1 {
+    padding: 0px 50px;
+}
+
+.SPDPRKSection1 > div > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.underlineBackground {
+    background: url("/underline.png") no-repeat;
+    background-position: left 170px top 45px;
+    height: 105px;
+}
+
+.SPDPRKSection1 > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.SPDPRKSection1 > div > div {
+    position: relative;
+    margin-top: 70px;
+    padding: 30px 0px;
+}
+
+.SPDPRKSection1Blue > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.SPDPRKSection1Blue > div {
+    display: flex;
+}
+
+.SPDPRKHardwareImage {
+    border-radius: 12px;
+}
+
+.SPDPRKSection1Blue > div > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.background1 {
+    position: absolute;
+    width: calc(100vw + 400px);
+    height: calc(100% + 70px);
+    left: -400px;
+    top: -35px;
+    background: #4A78AF;
+    opacity: .2;
+    z-index: 0;
+}
+
+.greenHalfCircle {
+    position: absolute;
+    top: -85px;
+    right: -100px;
+}
+
+.SPDPRKSection2 {
+    padding: 0px 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.SPDPRKSection2ExamplesContainer {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.SPDPRKSection2 > div > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection2 > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+    z-index: 1;
+}
+
+.SPDPRKSection2Example {
+    margin: 0px 0px 0px 0px;
+    padding: 40px;
+}
+
+.SPDPRKSection2ExampleHeader {
+    display: flex;
+    align-items: center;
+}
+
+.SPDPRKSection2ExampleImageContainer {
+    width: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 5px solid #5FCFA9;
+}
+
+.SPDPRKSection2ExampleHeader > h3 {
+    font-weight: 900;
+    font-size: 1.4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.SPDPRKSection2ExampleText {
+    margin-left: 0px;
+}
+
+.SPDPRKSection2ExampleText > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 160%;
+    color: #282D6C;
+    margin: 30px 0px 0px 0px;
+}
+
+.SPDPRKSection2ExampleImage {
+    margin-left: 50px;
+}
+
+.SPDPRKSection3 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.SPDPRKSection3 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.SPDPRKSection3Benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SPDPRKSection3Benefits > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.SPDPRKSection3Benefits > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3em;
+    line-height: 160%;
+    text-align: center;
+    color: #282D6C;
+}
+
+.SPDPRKSection4 {
+    padding: 0px 50px;
+    margin-top: 100px;
+}
+
+.SPDPRKSection4Text {
+    display: flex;
+}
+
+.SPDPRKSection4Text > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+}
+
+.SPDPRKSection4Text > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #282D6C;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.SPDPRKSection4ImagesContainer {
+    position: relative;
+    min-height: 450px;
+}
+
+.SPDPRKSection4Images {
+    position: absolute;
+    right: -150px;
+    top: 30px;
+    display: flex;
+}
+
+.SPDPRKSection4ImageContainer {
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.SPDPRKSection4Image {
+    border-radius: 12px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 1250px) {
+    .SPDPRKSection1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection2 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .greenHalfCircle {
+        position: absolute;
+        top: -85px;
+        right: -50px;
+    }
+
+    .SPDPRKSection3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection3Benefits > div > p {
+        font-size: 1.1em;
+    }
+
+    .SPDPRKSection4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection4ImageContainer {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 800px) {
+    .SPDPRK {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .SPDPRKSection1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .SPDPRKSection1 > div > h1 {
+        font-size: 2em;
+    }
+
+    .underlineBackground {
+        background: url("/underline.png") no-repeat;
+        background-position: left 85px top 21px;
+        background-size: 180px;
+        height: 54px;
+    }
+
+    .SPDPRKSection1 > div > h2 {
+        font-size: 2em;
+    }
+
+    .SPDPRKSection1 > div > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection1 > div > div {
+        position: relative;
+        margin-top: 100px;
+    }
+    
+    .SPDPRKSection1Blue > h2 {
+        font-size: 2em;
+    }
+
+    .SPDPRKSection1Blue > div {
+        flex-direction: column;
+    }
+    
+    .SPDPRKSection1Blue > div > div > p {
+        font-size: 1em;
+    }
+
+    .greenHalfCircle {
+        position: absolute;
+        bottom: 85px;
+        right: -15px;
+    }
+
+    .SPDPRKSection2ExamplesContainer {
+        margin-top: 50px;
+        display: inline;
+    }
+
+    .SPDPRKSection2 > div > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection2Example {
+        padding: 30px 0px;
+    }
+
+    .SPDPRKSection2ExampleText {
+        margin: 0;
+        padding: 0;
+    }
+
+    .SPDPRKSection2ExampleText > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection3Benefits {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+    }
+    
+    .SPDPRKSection3Icon {
+        width: 50px;
+    }
+
+    .SPDPRKSection3Benefits > div > p {
+        font-size: 1em;
+    }
+
+    .SPDPRKSection4 {
+        margin-top: 50px;
+    }
+
+    .SPDPRKSection4Text {
+        flex-direction: column;
+    }
+
+    .SPDPRKSection4Text > div > p {
+        font-size: 1em;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .SPDPRKSection4ImagesContainer {
+        position: relative;
+        min-height: 200px;
+    }
+
+    .SPDPRKSection4Images {
+        position: absolute;
+        right: -85px;
+        top: 30px;
+        display: flex;
+        min-height: 0px;
+    }
+
+    .SPDPRKSection4ImageContainer {
+        width: 150px;
+        height: 150px;
+        margin-left: 10px;
+        min-height: 0px;
+    }
+}

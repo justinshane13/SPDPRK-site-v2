@@ -1,0 +1,227 @@
+.contact {
+    padding: 50px 50px 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactSection1 {
+    padding: 0px 50px;
+}
+
+.contactSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.contactSection1 > div {
+    display: flex;
+}
+
+.contactSection1 > div > div {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.contactSection1 > div > div > h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.contactSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #282D6C;
+    margin: 0;
+}
+
+.contactSection2 {
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+
+.contactSection2 > h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.contactSection2 > div {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contactSection2 > div > div > p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 160%;
+    color: #282D6C;
+    max-width: 600px;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+}
+
+.contactSection2 > div > form {
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    min-width: 340px;
+    margin-left: 50px;
+}
+
+.contactSection2Name {
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 1em;
+    line-height: 160%;
+    width: 100%;
+    height: 50px;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.contactSection2Email {
+    height: 30px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    font-size: 1em;
+    width: 100%;
+    max-width: 600px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.contactSection2Message {
+    height: 60px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Montserrat";
+    font-size: 1em;
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.contactSection2Send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 19px;
+    height: 44px;
+    margin-top: 10px;
+    background: #4A78AF;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    line-height: 120%;
+    font-weight: 700;
+    border: 2px solid #4A78AF;;
+    transition-duration: .5s;
+    z-index: 1;
+    cursor: pointer;
+    font-family: 'Montserrat';
+}
+  
+.contactSection2Send:hover {
+    background: #FFF;
+    color: #4A78AF;;
+    transition-duration: .5s;
+}
+
+@media (max-width: 1250px) {
+    .contactSection1 {
+        padding: 0;
+    }
+
+    .contactSection1 > div {
+        flex-direction: column;
+    }
+
+    .contactSection1 > div > div > h2 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 160%;
+        color: #282D6C;
+        margin: 0;
+    }
+
+    .contactSection2 {
+        padding: 0;
+    }
+
+    .contactSection2 > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contactSection2 > div > form {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .contactSection1 > h1 {
+        font-size: 2em;
+    }
+
+    .contactSection1 > div > div > h2 {
+        font-size: 1.3em;
+    }
+
+    .contactSection1 > div > div > p {
+        font-size: 1em;
+    }
+
+    .contactSection2 > h2 {
+        font-size: 1.3em;
+        margin-top: 0px;
+    }
+
+    .contactSection2 > div > div > p {
+        font-size: 1em;
+    }
+
+    .contactSection2 > div > form {
+        min-width: 0px;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .contactSection2Send {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0px 0px 0px;
+    }
+}

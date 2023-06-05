@@ -1,0 +1,433 @@
+.about {
+    padding: 50px 50px 0px 50px;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutBannerHorizontal {
+    height: 80px;
+    width: 120%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dbdce6;
+    color: #282D6C;
+    font-size: 1.4em;
+    font-weight: 300;
+    position: absolute;
+    top: 650px;
+    left: -100px;
+    transform: rotate(-10deg);
+    z-index: 2;
+}
+
+.aboutBannerHorizontal > div {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #282D6C;
+}
+
+.aboutBannerVertical {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5FCFA9;
+    color: black;
+    font-size: 1.4em;
+    font-weight: 300;
+    position: absolute;
+    top: 300px;
+    right: -420px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.aboutBannerVertical > div {
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #282D6C;
+}
+
+.aboutSection0 {
+    padding: 0px 50px 250px 50px;
+    position: relative;
+}
+
+.aboutSection0 > h1 {
+    font-size: 5.5em;
+    color: #282D6C;
+    font-weight: 400;
+}
+
+.aboutSection0 > div {
+    display: flex;
+    align-items: center;
+}
+
+.aboutSection0 > div > p {
+    font-size: 2.5em;
+    color: #282D6C;
+    font-weight: 400;
+    margin-right: 40px;
+    margin-top: 0px;
+    max-width: 600px;
+}
+
+.aboutSection1 {
+    padding: 50px 50px 50px 50px;
+    position: relative;
+}
+
+.aboutSection1 > h1 {
+    font-weight: 900;
+    font-size: 4em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+.aboutSection1 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.aboutSection2 {
+    padding: 40px 50px;
+    margin-top: 50px;
+    position: relative;
+    background-color: #dbdce6;
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+}
+
+.aboutSection2 > div {
+    margin-right: 50px;
+}
+
+.aboutSection2 > div > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+}
+
+/* .aboutSection2 > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 20px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.aboutSection2GridElement {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.aboutSection2ImageContainer {
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.aboutSection2 > div > p {
+    margin-left: 0px;
+    padding: 0px 5px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.aboutSection3 {
+    display:flex;
+    align-items: center;
+    padding: 40px 50px;
+    margin-top: 50px;
+    background-color: #00A57833;
+    border-radius: 12px;
+}
+
+.aboutSectionImageContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.aboutSectionImage {
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.aboutSection3Text {
+    margin-left: 40px;
+}
+
+.aboutSection3 > div > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutSection3 > div > p {
+    margin-left: 0px;
+    padding: 0px 5px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+/* .aboutSection3Text > ul > li {
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+} */
+
+.aboutSection4 {
+    padding: 20px 50px 0px 50px;
+}
+
+.aboutSection4 > h2 {
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 140%;
+    letter-spacing: 1px;
+    color: #282D6C;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutSection4 {
+    margin-top: 50px;
+    position: relative;
+}
+
+.aboutSection4 > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #282D6C;
+}
+
+.background3 {
+    position: absolute;
+    width: 491.08px;
+    height: 491.08px;
+    right: -150px;
+    top: 100px;
+    background: rgba(95, 207, 169, 0.1);
+    border-radius: 245.538px;
+    z-index: -1;
+}
+
+@media (max-width: 1250px) {
+    .aboutBannerHorizontal {
+        height: 50px;
+        font-size: .9em;
+        top: 500px;
+    }
+
+    .aboutBannerHorizontal > div {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+    }
+
+    .aboutBannerVertical {
+        height: 50px;
+        font-size: .9em;
+        top: 300px;
+    }
+
+    .aboutBannerVertical > div {
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+    }
+    
+    .aboutSection0 {
+        padding: 0px 0px 200px 0px;
+    }
+
+    .aboutSection0 > h1 {
+        font-size: 4em;
+    }
+
+    .aboutSection0 > div > p {
+        font-size: 2em;
+        max-width: 470px;
+
+    }
+
+    .greenArrow {
+        width: 50px;
+    }
+    
+    .aboutSection1 {
+        padding: 0;
+    }
+
+    .aboutSection1 > h1 {
+        font-size: 2.5em;
+    }
+
+    .aboutSection2 {
+        padding: 20px 40px;
+        flex-direction: column;
+    }
+
+    .aboutSection3 {
+        padding: 20px 40px;
+        flex-direction: column;
+    }
+
+    .aboutSection3 > div {
+        margin: 20px;
+    }
+
+    .aboutSection4 {
+        padding: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .about {
+        padding: 0px 15px 0px 15px;
+    }
+
+    .aboutBannerHorizontal {
+        display: none;
+    }
+
+    .aboutBannerVertical {
+        display: none;
+    }
+    
+    .aboutSection0 {
+        padding: 0px 0px 50px 0px;
+    }
+
+    .aboutSection0 > h1 {
+        font-size: 3em;
+        line-height: 1.3em;
+    }
+
+    .aboutSection0 > div > p {
+        font-size: 1.4em;
+        max-width: 250px;
+        margin-right: 20px;
+    }
+
+    .greenArrow {
+        width: 50px;
+        margin-top: 40px;
+    }
+
+    .background3 {
+        position: absolute;
+        width: 391.08px;
+        height: 391.08px;
+        left: -150px;
+        top: 0px;
+        background: rgba(95, 207, 169, 0.1);
+        border-radius: 245.538px;
+        z-index: 0;
+    }
+    
+    .aboutSection1 {
+        padding-top: 20px;
+    }
+
+    .aboutSection1 > h1 {
+        font-size: 1.8em;
+    }
+
+    .aboutSection1 > p {
+        font-size: 1em;
+    }
+
+    .aboutSection2 {
+        padding: 0px 0px 20px 0px;
+        margin-top: 20px;
+    }
+
+    .aboutSection2 > div {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0px 0px 0px;
+        padding: 0px 15px;
+    }
+
+    .aboutSection2 > div > h2 {
+        font-size: 1.5em;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .aboutSection2 > div > p {
+        font-size: 1em;
+        padding: 0;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .aboutSection3 {
+        padding: 10px 20px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutSectionImage {
+        width: 330px;
+        height: 330px;
+    }
+
+    .aboutSection3 > div {
+        padding: 20px 0px 0px 0px;
+        margin: 0;
+    }
+
+    .aboutSection3 > div > h2 {
+        font-size: 1.5em;
+    }
+
+    .aboutSection3 > div > p {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .aboutSection4 {
+        padding: 0;
+    }
+
+    .aboutSection4 > h2 {
+        font-size: 1.5em;
+    }
+
+    .aboutSection4 > p {
+        font-size: 1em;
+    }
+}
