@@ -464,7 +464,7 @@
 }
 
 .footer {
-  background: #E8F1FB;
+  background: #121717;
   padding: 100px 0px 20px 0px;
   margin-top: 100px;
 }
@@ -489,7 +489,7 @@
 }
 
 .custom_shape_divider_bottom_1682005640 .shape_fill {
-  fill: #E8F1FB;
+  fill: #121717;
 }
 
 .footerLinks {
@@ -514,7 +514,7 @@
   align-items: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #9EA1BD;
+  color: white;
 }
 
 .footerLink {
@@ -526,12 +526,12 @@
   line-height: 100%;
   display: flex;
   align-items: center;
-  color: #5E6191;
+  color: white;
   text-decoration: none;
 }
 
 .footerLink:hover {
-  color: #000;
+  color: lightgray;
   transition-duration: .3s;
 }
 
@@ -547,7 +547,7 @@
   line-height: 100%;
   display: flex;
   align-items: center;
-  color: #5E6191;
+  color: white;
   text-decoration: none;
   margin: 0px 0px 10px 0px;
 }
@@ -560,7 +560,7 @@
   line-height: 100%;
   display: flex;
   justify-content: center;
-  color: #5E6191;
+  color: white;
   margin-top: 200px;
 }
 
