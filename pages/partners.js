@@ -13,6 +13,7 @@ const Partners = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main>
+                <div className={styles.navbarBackground}></div>
                 <div className={styles.partners}>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}

@@ -10,6 +10,7 @@ const Contact = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main>
+                <div className={styles.navbarBackground}></div>
                 <div className={styles.contact}>
                     <div className={styles.contactSection1}>
                         <h1>Contact Us</h1>
