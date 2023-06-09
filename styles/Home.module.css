@@ -302,6 +302,7 @@
 .company {
   width: 100%;
 }
+
 .companyTile {
   display: flex;
   width: 980px;
@@ -607,6 +608,28 @@
     grid-column: 2 / span 2;
   }
 
+  .companyTile {
+    display: flex;
+    width: 780px;
+    height: 320px;
+    margin: 30px auto;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .companyTileTextParagraph {
+    font-size: 1.2em;
+    padding: 0px 20px 0px 0px;
+  }
+
+  .companyTileTextLink {
+    font-size: 1.2em;
+  }
+
+  .arrowRight {
+    margin-top: 1px;
+  }
+
   .companyParagraph {
     max-width: 1000px;
     width: 100%;
@@ -683,24 +706,93 @@
   .SPDPRKHighlight {
     width: calc(100% - 30px);
     box-sizing: border-box;
-    margin: 120px 15px 0px 15px;
-    padding: 20px 15px;
+    margin: 90px auto 0px auto;
+    padding: 0px;
   }
-  
+
   .SPDPRKHighlightTitle {
-    font-weight: 900;
-    font-size: 2em;
-    margin: 0 0 30px 0;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 0;
+  }
+
+  .company {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .companyTile {
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+
+  .companyTileImageContainer {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
   }
   
-  .underlineBackground {
-    background: url("/underline.png") no-repeat;
-    background-position: left 75px top 19px;
-    background-size: 180px 40px;
-    height: 60px;
-    margin-bottom: 0px;
+  .companyTileImage {
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
   }
   
+  .companyTileText {
+    height: 60%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 0;
+    padding-top: 0px;
+    width: 90%;
+  }
+  
+  .companyTileTextTitle {
+    font-size: 1.3em;
+    line-height: 1.225;
+    font-weight: 600;
+    letter-spacing: .004em;
+    margin-bottom: 18px;
+  }
+  
+  .companyTileTextParagraph {
+    font-size: 1em;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  .companyTileTextLink {
+    font-size: 1em;
+    line-height: 1.381002381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-top: 0px;
+  }
+
+  .SPDPRKHighlightLinkContainer {
+    margin-top: 10px;
+  }
+
+  .SPDPRKHighlightLink {
+    font-size: 1em;
+  }
+
   .SPDPRKHighlightBottomSection {
     display: flex;
     flex-direction: column;
@@ -718,25 +810,16 @@
     display: none;
   }
   
-  .SPDPRKHighlightLink {
-    font-size: 1em;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    color: #121717;
-    margin-top: 30px;
-    text-decoration: none;
-    width: 163px;
-  }
-  
   .arrowRight {
-    margin-left: 7px;
+    height: 12px;
+    margin-left: 1px;
+    margin-top: 3px;
     transition-duration: .2s;
     width: 1em;
   }
   
   .slideRight {
-    margin-left: 13px;
+    margin-left: 5px;
     transition-duration: .2s;
   }
 
@@ -791,16 +874,7 @@
   .companyBackgroundContainer {
     position: relative;
   }
-  
-  .company {
-    display: flex;
-    flex-direction: column;
-    padding: 50px 15px 0px 15px;
-    margin: 0px auto;
-    background-position: top 820px left -40px;
-    background-size: 150px 150px;
-    position: relative;
-  }
+
   
   .companyTitle {
     width: 100%;
@@ -969,18 +1043,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 350px;
   }
   
   .upgradeTitle {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     margin: 0;
   }
   
   .upgradeParagraph {
     font-weight: 400;
-    font-size: 1em;
-    width: 360px;
+    font-size: .9em;
+    width: 350px;
     margin: 20px 0px 0px 0px;
   }
 
