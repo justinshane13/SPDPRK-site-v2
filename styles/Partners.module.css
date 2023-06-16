@@ -7,6 +7,13 @@
     margin-right: auto;
 }
 
+.navbarBackground {
+    width: 100vw;
+    height: 48px;
+    padding: 10px 30px 0px 5px;
+    background-color: #222727;
+}
+
 .partnersSection1 {
     padding: 0;
 }
@@ -16,7 +23,7 @@
     font-size: 4em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
 }
 
 .partnersSection1 > p {
@@ -24,7 +31,7 @@
     font-weight: 400;
     font-size: 1.5em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 .partnersSection2Container {
@@ -45,7 +52,7 @@
     font-weight: 600;
     font-size: 1.8em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
     margin: 13px 0px 0px 0px;
 }
 
@@ -59,7 +66,7 @@
     font-weight: 400;
     font-size: 1.1em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
     margin-top: 15px;
 }
 
@@ -85,7 +92,7 @@
     font-weight: 500;
     font-size: 1.2em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 .partnersStar {
@@ -97,7 +104,7 @@
     font-weight: 400;
     font-size: .9em;
     line-height: 160%;
-    color: #656D9F;
+    color: #121717;
     margin: 10px 0px 0px 0px;
 }
 
@@ -106,7 +113,7 @@
     font-weight: 400;
     font-size: .9em;
     line-height: 160%;
-    color: #656D9F;
+    color: #121717;
     margin: 0;
 }
 
@@ -123,7 +130,7 @@
     line-height: 140%;
     text-align: center;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
     margin: 0;
 }
 
@@ -133,7 +140,7 @@
     font-size: 1.2em;
     line-height: 160%;
     text-align: center;
-    color: #656D9F;
+    color: #121717;
     max-width: 450px;
 }
 
@@ -158,9 +165,8 @@
 }
   
 .partnersContactLink:hover {
-    background: #FFF;
-    color: #4A78AF;;
-    transition-duration: .5s;
+    transform: translateY(-5px);
+    transition-duration: .3s;
 }
 
 @media (max-width: 1250px) {

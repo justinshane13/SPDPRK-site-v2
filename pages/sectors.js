@@ -13,6 +13,7 @@ const Sectors = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main>
+                <div className={styles.navbarBackground}></div>
                 <div className={styles.sectors}>
                     <h1>Sectors</h1>
                     <Banner />

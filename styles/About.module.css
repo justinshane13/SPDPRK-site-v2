@@ -7,62 +7,21 @@
     margin-right: auto;
 }
 
-.aboutBannerHorizontal {
-    height: 80px;
-    width: 120%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #dbdce6;
-    color: #282D6C;
-    font-size: 1.4em;
-    font-weight: 300;
-    position: absolute;
-    top: 650px;
-    left: -100px;
-    transform: rotate(-10deg);
-    z-index: 2;
-}
-
-.aboutBannerHorizontal > div {
-    height: 12px;
-    width: 12px;
-    border-radius: 6px;
-    background-color: #282D6C;
-}
-
-.aboutBannerVertical {
-    height: 80px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #5FCFA9;
-    color: black;
-    font-size: 1.4em;
-    font-weight: 300;
-    position: absolute;
-    top: 300px;
-    right: -420px;
-    transform: rotate(45deg);
-    z-index: 1;
-}
-
-.aboutBannerVertical > div {
-    height: 12px;
-    width: 12px;
-    border-radius: 6px;
-    background-color: #282D6C;
+.navbarBackground {
+    width: 100vw;
+    height: 48px;
+    padding: 10px 30px 0px 5px;
+    background-color: #222727;
 }
 
 .aboutSection0 {
-    padding: 0px 50px 250px 50px;
+    padding: 50px 50px 50px 50px;
     position: relative;
 }
 
 .aboutSection0 > h1 {
     font-size: 5.5em;
-    color: #282D6C;
+    color: #121717;
     font-weight: 400;
 }
 
@@ -73,7 +32,7 @@
 
 .aboutSection0 > div > p {
     font-size: 2.5em;
-    color: #282D6C;
+    color: #121717;
     font-weight: 400;
     margin-right: 40px;
     margin-top: 0px;
@@ -81,7 +40,7 @@
 }
 
 .aboutSection1 {
-    padding: 50px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
     position: relative;
 }
 
@@ -90,7 +49,7 @@
     font-size: 4em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
 }
 
 .aboutSection1 > p {
@@ -98,7 +57,7 @@
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 .aboutSection2 {
@@ -120,7 +79,7 @@
     font-size: 2em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
 }
 
 /* .aboutSection2 > div {
@@ -152,7 +111,7 @@
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 .aboutSection3 {
@@ -183,7 +142,7 @@
     font-size: 2em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
     margin: 0;
     padding: 0;
 }
@@ -195,7 +154,7 @@
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 /* .aboutSection3Text > ul > li {
@@ -216,7 +175,7 @@
     font-size: 2em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #121717;
     margin: 0;
     padding: 0;
 }
@@ -231,7 +190,7 @@
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
-    color: #282D6C;
+    color: #121717;
 }
 
 .background3 {
@@ -271,7 +230,7 @@
     }
     
     .aboutSection0 {
-        padding: 0px 0px 200px 0px;
+        padding: 0px 0px 100px 0px;
     }
 
     .aboutSection0 > h1 {

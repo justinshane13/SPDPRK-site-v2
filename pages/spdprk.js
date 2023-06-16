@@ -13,6 +13,7 @@ const SPDPRK = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main>
+                <div className={styles.navbarBackground}></div>
                 <div className={styles.SPDPRK}>
                     <div className={styles.SPDPRKSection1}>
                         <motion.div

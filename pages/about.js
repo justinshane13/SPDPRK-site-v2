@@ -13,29 +13,8 @@ const About = () => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <main>
+                <div className={styles.navbarBackground}></div>
                 <div className={styles.about}>
-                    <div className={styles.aboutBannerHorizontal}>
-                        <p>COMPATIBILITY</p>
-                        <div></div>
-                        <p>LONGEVITY</p>
-                        <div></div>
-                        <p>TOTAL SOLUTIONS</p>
-                        <div></div>
-                        <p>HARDWARE & SOFTWARE</p>
-                        <div></div>
-                        <p>ZERO OBSOLESCENCE</p>
-                    </div>
-                    <div className={styles.aboutBannerVertical}>
-                        <p>BESPOKE SOLUTIONS</p>
-                        <div></div>
-                        <p>ZERO OBSOLESCENCE</p>
-                        <div></div>
-                        <p>USA BASED</p>
-                        <div></div>
-                        <p>SERVICE</p>
-                        <div></div>
-                        <p>ZERO OBSOLESCENCE</p>
-                    </div>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{ opacity: 1, y: 0 }}

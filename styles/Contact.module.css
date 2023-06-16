@@ -7,6 +7,13 @@
     margin-right: auto;
 }
 
+.navbarBackground {
+    width: 100vw;
+    height: 48px;
+    padding: 10px 30px 0px 5px;
+    background-color: #222727;
+}
+
 .contactSection1 {
     padding: 0px 50px;
 }
@@ -16,7 +23,7 @@
     font-size: 4em;
     line-height: 140%;
     letter-spacing: 1px;
-    color: #282D6C;
+    color: #222727;
 }
 
 .contactSection1 > div {
@@ -33,7 +40,7 @@
     font-weight: 700;
     font-size: 1.5em;
     line-height: 160%;
-    color: #282D6C;
+    color: #222727;
 }
 
 .contactSection1 > div > div > p {
@@ -41,7 +48,7 @@
     font-style: normal;
     font-size: 1.2em;
     line-height: 160%;
-    color: #282D6C;
+    color: #222727;
     margin: 0;
 }
 
@@ -55,7 +62,7 @@
     font-weight: 700;
     font-size: 1.5em;
     line-height: 160%;
-    color: #282D6C;
+    color: #222727;
 }
 
 .contactSection2 > div {
@@ -68,7 +75,7 @@
     font-style: normal;
     font-size: 1.2em;
     line-height: 160%;
-    color: #282D6C;
+    color: #222727;
     max-width: 600px;
     width: 100%;
     margin: 0px 0px 20px 0px;
@@ -167,7 +174,7 @@
         font-weight: 700;
         font-size: 1.5em;
         line-height: 160%;
-        color: #282D6C;
+        color: #222727;
         margin: 0;
     }
 
