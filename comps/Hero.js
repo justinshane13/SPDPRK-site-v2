@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
             </motion.div>
             <div className={styles.heroImageContainer}>
-                <Image className={styles.heroImage} src="/parking_structure2.jpg" layout='fill' objectFit='cover' />
+                <Image className={styles.heroImage} src="/welcome.jpg" layout='fill' objectFit='cover' />
             </div>
         </div>
     );
