@@ -87,6 +87,7 @@
 .navLogo {
   margin-right: auto;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .navLink {

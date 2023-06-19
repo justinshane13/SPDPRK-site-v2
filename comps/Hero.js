@@ -14,7 +14,7 @@ const Hero = () => {
             >
                 <div className={styles.heroText}>
                     <p className={styles.heroTitle}>Parking solutions — done right.</p>
-                    <Link className={styles.heroLink} href="/contact">Request a Demo</Link>
+                    <Link className={styles.heroLink} href="/contact">Contact Us</Link>
                 </div>
             </motion.div>
             <div className={styles.heroImageContainer}>

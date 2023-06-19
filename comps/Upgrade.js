@@ -14,7 +14,7 @@ const Upgrade = () => {
                 <div className={styles.upgradeText}>
                     <p className={styles.upgradeTitle}>Ready to upgrade?</p>
                     <p className={styles.upgradeParagraph}>Connect with our Solutions team today to schedule a demo.</p>
-                    <Link className={styles.companyLink} href="/contact">Request a Demo</Link>
+                    <Link className={styles.companyLink} href="/contact">Contact Us</Link>
                 </div>
             </div>
         </motion.div>
