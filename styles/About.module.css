@@ -52,12 +52,31 @@
     color: #121717;
 }
 
-.aboutSection1 > p {
+.aboutSection1 > div > p {
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 1.3em;
     line-height: 160%;
     color: #121717;
+}
+
+.aboutSection1 > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSection1 > div > div > p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 160%;
+    color: #121717;
+}
+
+.aboutCorvette {
+    border-radius: 12px;
+    margin-left: 50px;
 }
 
 .aboutSection2 {
@@ -274,6 +293,16 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .aboutSection1 > div > div {
+        flex-direction: column;
+    }
+
+    .aboutCorvette {
+        margin: 30px auto;
+    }
+}
+
 @media (max-width: 800px) {
     .about {
         padding: 0px 15px 0px 15px;
@@ -326,7 +355,22 @@
         font-size: 1.8em;
     }
 
-    .aboutSection1 > p {
+    .aboutSection1 > div > p {
+        font-size: 1em;
+    }
+
+    .aboutSection1 > div > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutCorvette {
+        margin: 30px auto;
+    }
+
+    .aboutSection1 > div > div > p {
         font-size: 1em;
     }
 

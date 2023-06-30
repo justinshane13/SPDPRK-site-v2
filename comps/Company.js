@@ -15,7 +15,7 @@ const Company = () => {
                 <div className={styles.companyTileText}>
                     <p className={styles.companyTileTextTitle}>Local Manufacturing</p>
                     <p className={styles.companyTileTextParagraph}>We're proud to manufacture and develop all of our equipment and software in-house in our Los Angeles, CA headquarters.</p>
-                    <LearnMore />
+                    <LearnMore page="/about"/>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@ const Company = () => {
                 <div className={styles.companyTileText}>
                     <p className={styles.companyTileTextTitle}>QR Based Payments</p>
                     <p className={styles.companyTileTextParagraph}>Fast, contactless payments have never been simpler because customers connect their ticket to their phone payment method.</p>
-                    <LearnMore />
+                    <LearnMore page="/spdprk" />
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ const Company = () => {
                 <div className={styles.companyTileText}>
                     <p className={styles.companyTileTextTitle}>Solutions for Every Sector</p>
                     <p className={styles.companyTileTextParagraph}>We’ve been trusted across numerous sectors over our 45 years in the parking industry.</p>
-                    <LearnMore />
+                    <LearnMore page="/sectors" />
                 </div>
             </div>
 

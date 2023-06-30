@@ -37,10 +37,14 @@ const About = () => {
                     >
                         <div className={styles.aboutSection1}>
                             <h1>How are we different?</h1>
-                            <p>Welcome to SPDPRK, your trusted Total Solution Provider! We pride ourselves on our commitment to delivering cutting-edge technology that is built to last. With a strong emphasis on Zero Obsolescence, we ensure that both our software and hardware solutions stand the test of time, providing our clients with long-term reliability and value.</p>
-                            <p>As a Total Solution Provider, we offer a comprehensive range of services tailored to meet your every need. Whether you're looking for state-of-the-art software development, advanced hardware solutions, or a combination of both, our team of experts is here to deliver innovative and efficient solutions that drive your business forward.</p>
-                            <p>One of our key differentiators is our unwavering dedication to backwards compatibility. We understand the importance of seamless integration with existing systems, and our solutions are designed to work harmoniously with your current infrastructure. By prioritizing compatibility, we minimize disruptions and ensure a smooth transition to our advanced technologies without compromising your existing investments.</p>
-                            <div className={styles.background3}></div>
+                            <div>
+                                <p>Welcome to SPDPRK, your trusted Total Solution Provider! We pride ourselves on our commitment to delivering cutting-edge technology that is built to last. With a strong emphasis on Zero Obsolescence, we ensure that both our software and hardware solutions stand the test of time, providing our clients with long-term reliability and value.</p>
+                                <p>As a Total Solution Provider, we offer a comprehensive range of services tailored to meet your every need. Whether you're looking for state-of-the-art software development, advanced hardware solutions, or a combination of both, our team of experts is here to deliver innovative and efficient solutions that drive your business forward.</p>
+                                <div>
+                                    <p>One of our key differentiators is our unwavering dedication to backwards compatibility. We understand the importance of seamless integration with existing systems, and our solutions are designed to work harmoniously with your current infrastructure. By prioritizing compatibility, we minimize disruptions and ensure a smooth transition to our advanced technologies without compromising your existing investments.</p>
+                                    <Image className={styles.aboutCorvette} src="/welcome.jpg" width={500} height={300} />
+                                </div>
+                            </div>
                         </div>
                     </motion.div>
                     <motion.div
