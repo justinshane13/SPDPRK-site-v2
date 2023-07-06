@@ -471,7 +471,7 @@
   width: 100%;
   line-height: 0;
   transform: rotate(180deg);
-  padding-top: 100px;
+  padding-top: 00px;
   z-index: 1;
 }
 
@@ -718,6 +718,7 @@
     font-weight: 500;
     margin-top: 0px;
     padding: 0;
+    margin-bottom: 30px;
   }
 
   .company {
@@ -1077,7 +1078,7 @@
     display: block;
     width: 100%;
     height: 43px;
-    top: -30px;
+    top: -31px;
   }
   
   .custom_shape_divider_bottom_1682005640 .shape_fill {
