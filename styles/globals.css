@@ -15,4 +15,5 @@ html, body {
 .content {
   margin: 0 auto;
   letter-spacing: .2px;
+  width: 100%;
 }
