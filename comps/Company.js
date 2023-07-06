@@ -13,7 +13,7 @@ const Company = () => {
                     <Image className={styles.companyTileImage} src="/equipment_reader_full.jpg" layout="fill" objectFit="cover" />
                 </div>
                 <div className={styles.companyTileText}>
-                    <p className={styles.companyTileTextTitle}>Local Manufacturing</p>
+                    <p className={styles.companyTileTextTitle}>Made in America</p>
                     <p className={styles.companyTileTextParagraph}>We're proud to manufacture and develop all of our equipment and software in-house in our Los Angeles, CA headquarters.</p>
                     <LearnMore page="/about"/>
                 </div>
