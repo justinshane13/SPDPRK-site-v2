@@ -368,6 +368,8 @@
 
     .aboutCorvette {
         margin: 30px auto;
+        width: 350px;
+        height: 210px;
     }
 
     .aboutSection1 > div > div > p {

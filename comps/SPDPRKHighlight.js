@@ -14,7 +14,7 @@ const SPDPRKHighlight = () => {
         <div className={styles.SPDPRKHighlight}>
           <div className={styles.SPDPRKHighlightText}>
             <div className={styles.SPDPRKUnderlineContainer}>
-              <p className={`${styles.SPDPRKHighlightTitle} ${styles.underlineBackground}`}>With SPDPRK, we make it simple.</p>
+              <p className={`${styles.SPDPRKHighlightTitle} ${styles.underlineBackground}`}>SPDPRK makes it simple.</p>
             </div>
           </div>
 
