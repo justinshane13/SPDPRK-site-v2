@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className={styles.footerContactInfo}>
                             <p className={styles.footerAddress}>15905 S Broadway</p>
                             <p className={styles.footerAddress}>Gardena, CA 90248</p>
-                            <p className={styles.footerAddress}>310-641-1290</p>
+                            <p className={styles.footerAddress}>267-4-SPDPRK</p>
                             <p className={styles.footerAddress}>sales@secomintl.com</p>
                         </div>
                     </div>

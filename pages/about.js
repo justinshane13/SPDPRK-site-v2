@@ -42,7 +42,7 @@ const About = () => {
                                 <p>As a Total Solution Provider, we offer a comprehensive range of services tailored to meet your every need. Whether you're looking for state-of-the-art software development, advanced hardware solutions, or a combination of both, our team of experts is here to deliver innovative and efficient solutions that drive your business forward.</p>
                                 <div>
                                     <p>One of our key differentiators is our unwavering dedication to backwards compatibility. We understand the importance of seamless integration with existing systems, and our solutions are designed to work harmoniously with your current infrastructure. By prioritizing compatibility, we minimize disruptions and ensure a smooth transition to our advanced technologies without compromising your existing investments.</p>
-                                    <Image className={styles.aboutCorvette} src="/welcome.jpg" width={500} height={300} />
+                                    <Image className={styles.aboutCorvette} src="/corvette_exit.svg" width={500} height={300} />
                                 </div>
                             </div>
                         </div>
