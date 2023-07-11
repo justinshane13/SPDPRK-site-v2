@@ -53,7 +53,7 @@
 }
 
 .contactSection2 {
-    padding: 0px 50px;
+    padding: 0px 50px 80px 50px;
     margin-top: 50px;
 }
 
@@ -179,7 +179,7 @@
     }
 
     .contactSection2 {
-        padding: 0;
+        padding: 0px 0px 80px 0px;
     }
 
     .contactSection2 > div {
@@ -208,6 +208,10 @@
 
     .contactSection1 > div > div > p {
         font-size: 1em;
+    }
+
+    .contactSection2 {
+        padding-bottom: 0px;
     }
 
     .contactSection2 > h2 {
