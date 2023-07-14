@@ -162,7 +162,7 @@
     .sectorPageSection2 > div {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 40px 0px;
+        grid-gap: 25px 0px;
         max-width: 630px;
     }
 
