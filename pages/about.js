@@ -28,6 +28,14 @@ const About = () => {
                                 <Image className={styles.greenArrow} src="/green_arrow.svg" width={75} height={75} />
                             </div>
                         </div>
+                        <video
+                            playsinline
+                            controls
+                            style={{ width: '100%'}}
+                            src="/HowToSecom.mp4"
+                            className={styles.howToVideo}
+                        >
+                        </video>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
