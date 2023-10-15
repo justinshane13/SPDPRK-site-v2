@@ -31,6 +31,8 @@ const About = () => {
                         <video
                             playsinline
                             controls
+                            autoPlay
+                            muted
                             style={{ width: '100%'}}
                             src="/HowToSecom.mp4"
                             className={styles.howToVideo}
