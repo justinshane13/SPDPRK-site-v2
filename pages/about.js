@@ -29,7 +29,7 @@ const About = () => {
                             </div>
                         </div>
                         <video
-                            playsinline
+                            playsInline
                             controls
                             autoPlay
                             muted

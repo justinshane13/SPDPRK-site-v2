@@ -26,8 +26,9 @@ const SPDPRK = () => {
                             <p>Your customers can scan their ticket and pay for parking using their phone for every step.</p>
                             <p>Fast, contactless payments have never been simpler because customers connect their ticket to their phone payment method. Quickly allow paying customers to enter and exit your parking facility easily through a QR code ticket dispenser and QR reader. Deep-dive into facility analytics by identifying low and peak volume periods on a hourly, daily, weekly, or monthly basis.</p>
                             <video
-                                playsinline
+                                playsInline
                                 controls
+                                muted
                                 autoPlay
                                 style={{ width: '100%'}}
                                 src="/Clip5.mp4"
