@@ -50,7 +50,7 @@ const SPDPRK = () => {
                                             <p>SPDPRK systems are designed to be Zero Obsolescent, requiring minimal maintenance and built on a secure and stable technology that is resistant to breakdowns. We utilize a cloud-based monitoring system along with an optional on site server to manage your location with an ethernet connection and power. </p>
                                             <p>We designed the system to be a solution to the variety of challenges parking operations face. By adding SPDPRK to your parking asset, you can drastically reduce the footprint of your equipment. Below are some of the ways it can replace or enhance legacy equipment.</p>
                                         </div>
-                                        <Image className={styles.SPDPRKReaderImage} src="/reader_isolated.svg" width={300} height={400} />
+                                        <Image className={styles.SPDPRKReaderImage} src="/CA4A2317C.png" width={300} height={400} />
                                     </div>
                                 </div>
                                 <div className={styles.background1}></div>
