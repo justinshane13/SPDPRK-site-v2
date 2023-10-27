@@ -18,6 +18,16 @@ const SPDPRKHighlight = () => {
             </div>
           </div>
 
+          <video
+              playsInline
+              controls
+              muted
+              autoPlay
+              style={{ width: '100%'}}
+              src="/30secondvideo.mp4"
+              className={styles.cellPhoneVideo}
+          >
+          </video>
         </div>
       </motion.div>
     );

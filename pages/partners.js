@@ -38,7 +38,7 @@ const Partners = () => {
                                 <div>
                                     <Image className={`${styles.partnersFlag} ${styles.partnersIcon}`} src="/flag.svg" width={80} height={80} />
                                     <h2>We are based in the USA</h2>
-                                    <p>You can reach us directly — no call centers. We understand the value of getting real answers, fast. No matter the issue you need addressed, we will be available to help you.</p>
+                                    <p>You can reach us right away — no call centers. We understand the value of getting real answers, fast. No matter the issue you need addressed, we will be available to help you.</p>
                                     <p>All of our team, from hardware and manufacturing to software and support, are based in the continental United States.</p>
                                 </div>
                             </motion.div>
