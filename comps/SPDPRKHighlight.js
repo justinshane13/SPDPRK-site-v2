@@ -20,7 +20,6 @@ const SPDPRKHighlight = () => {
 
           <video
               playsInline
-              controls
               muted
               autoPlay
               style={{ width: '100%'}}

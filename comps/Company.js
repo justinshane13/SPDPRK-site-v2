@@ -15,7 +15,7 @@ const Company = () => {
             >
                 <div className={styles.companyTile}>
                     <div className={styles.companyTileImageContainer}>
-                        <Image className={styles.companyTileImage} src="/equipment_reader_full.jpg" layout="fill" objectFit="cover" />
+                        <Image className={styles.companyTileImage} src="/CA4A2317C.png" layout="fill" objectFit="cover" />
                     </div>
                     <div className={styles.companyTileText}>
                         <p className={styles.companyTileTextTitle}>Made in America</p>
