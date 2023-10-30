@@ -21,6 +21,7 @@ const SPDPRKHighlight = () => {
           <video
               playsInline
               muted
+              loop
               autoPlay
               style={{ width: '100%'}}
               src="/30secondvideo.mp4"

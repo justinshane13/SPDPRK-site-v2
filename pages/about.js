@@ -30,8 +30,8 @@ const About = () => {
                         </div>
                         <video
                             playsInline
-                            controls
                             autoPlay
+                            loop
                             muted
                             style={{ width: '100%'}}
                             src="/HowToSecom.mp4"
