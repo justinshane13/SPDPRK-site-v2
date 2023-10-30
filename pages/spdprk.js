@@ -25,16 +25,18 @@ const SPDPRK = () => {
                             <h1 className={styles.underlineBackground}>This is SPDPRK</h1>
                             <p>Your customers can scan their ticket and pay for parking using their phone for every step.</p>
                             <p>Fast, contactless payments have never been simpler because customers connect their ticket to their phone payment method. Quickly allow paying customers to enter and exit your parking facility easily through a QR code ticket dispenser and QR reader. Deep-dive into facility analytics by identifying low and peak volume periods on a hourly, daily, weekly, or monthly basis.</p>
-                            <video
-                                playsInline
-                                muted
-                                loop
-                                autoPlay
-                                style={{ width: '100%'}}
-                                src="/Clip5.mp4"
-                                className={styles.cellPhoneVideo}
-                            >
-                            </video>
+                            <div className={styles.SPDPRKSectionVideo}>
+                                <video
+                                    playsInline
+                                    muted
+                                    loop
+                                    autoPlay
+                                    style={{ width: '100%'}}
+                                    src="/Clip5.mp4"
+                                    className={styles.cellPhoneVideo}
+                                >
+                                </video>
+                            </div>
                         </motion.div>
                         <motion.div
                         initial={{ opacity: 0, y: 100 }}

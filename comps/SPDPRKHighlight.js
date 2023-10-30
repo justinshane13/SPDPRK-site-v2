@@ -17,16 +17,17 @@ const SPDPRKHighlight = () => {
               <p className={`${styles.SPDPRKHighlightTitle} ${styles.underlineBackground}`}>SPDPRK makes it simple.</p>
             </div>
           </div>
-
-          <video
-              playsInline
-              muted
-              loop
-              autoPlay
-              src="/30secondvideo.mp4"
-              className={styles.cellPhoneVideo}
-          >
-          </video>
+          <div className={styles.homeSectionVideo}>
+            <video
+                playsInline
+                muted
+                loop
+                autoPlay
+                src="/30secondvideo.mp4"
+                className={styles.cellPhoneVideo}
+            >
+            </video>
+          </div>
         </div>
       </motion.div>
     );
