@@ -41,6 +41,11 @@
 
 .howToVideo {
     filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.25));
+    margin-top: 30px;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .aboutSection1 {
@@ -349,6 +354,10 @@
         background: rgba(95, 207, 169, 0.1);
         border-radius: 245.538px;
         z-index: 0;
+    }
+
+    .howToVideo {
+        width: 100%;
     }
     
     .aboutSection1 {

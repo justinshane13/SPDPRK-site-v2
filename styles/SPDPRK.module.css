@@ -49,7 +49,10 @@
 .cellPhoneVideo {
     filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.25));
     margin-top: 30px;
-    width: '50%';
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .SPDPRKSection1Blue > h2 {
@@ -323,6 +326,10 @@
         background-position: left 85px top 21px;
         background-size: 180px;
         height: 54px;
+    }
+
+    .cellPhoneVideo {
+        width: 100%;
     }
 
     .SPDPRKSection1 > div > h2 {
