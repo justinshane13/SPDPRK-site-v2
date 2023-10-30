@@ -28,16 +28,18 @@ const About = () => {
                                 <Image className={styles.greenArrow} src="/green_arrow.svg" width={75} height={75} />
                             </div>
                         </div>
-                        <video
-                            playsInline
-                            autoPlay
-                            loop
-                            muted
-                            style={{ width: '100%'}}
-                            src="/HowToSecom.mp4"
-                            className={styles.howToVideo}
-                        >
-                        </video>
+                        <div className={styles.aboutSectionVideo}>
+                            <video
+                                playsInline
+                                autoPlay
+                                loop
+                                muted
+                                style={{ width: '100%'}}
+                                src="/HowToSecom.mp4"
+                                className={styles.howToVideo}
+                            >
+                            </video>
+                        </div>
                     </motion.div>
                     <motion.div
                         initial={{ opacity: 0, y: 100 }}
