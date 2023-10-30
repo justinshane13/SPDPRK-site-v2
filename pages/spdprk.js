@@ -31,7 +31,6 @@ const SPDPRK = () => {
                                     muted
                                     loop
                                     autoPlay
-                                    style={{ width: '100%'}}
                                     src="/Clip5.mp4"
                                     className={styles.cellPhoneVideo}
                                 >
