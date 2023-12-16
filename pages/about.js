@@ -34,7 +34,7 @@ const About = () => {
                                 autoPlay
                                 loop
                                 muted
-                                src="/HowToSecom.mp4"
+                                src="/HowToSecom2.mp4"
                                 className={styles.howToVideo}
                             >
                             </video>
